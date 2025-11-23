@@ -1,0 +1,2 @@
+Select id, gender, name, email from public."users"
+limit 10;

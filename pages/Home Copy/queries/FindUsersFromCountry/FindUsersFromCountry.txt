@@ -1,0 +1,3 @@
+SELECT id, name, email FROM public."users"
+where country = {{this.params.country}}
+limit 10;

@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6922a2cfc33c1c45329388f4_815dcb9d-6e59-49d2-afc7-46bdc28c817a",
+  "id": "Home Copy_Utils",
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "Home Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "property",
+        "value": "\"User Name\""
+      }
+    ]
+  }
+}

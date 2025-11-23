@@ -18,8 +18,12 @@
   "icon": "bus",
   "pages": [
     {
-      "id": "Page1",
+      "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "Home Copy",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
