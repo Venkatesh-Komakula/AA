@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT id, name, email FROM public.\"users\"\nwhere country = {{FindCountry.data[0].country}}\nlimit 10;",
+      "body": "SELECT id, name, email FROM public.\"users\"\nwhere country = {{this.params.country}}\nlimit 10;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
