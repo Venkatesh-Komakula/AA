@@ -1,6 +1,6 @@
 {
   "gitSyncId": "69228120d8824914c3f6f76d_c6939cf0-6342-4293-9494-29a24467b07c",
-  "id": "Page1_Fetch_User",
+  "id": "Home_Fetch_User",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       }
     ],
     "name": "Fetch_User",
-    "pageId": "Page1",
+    "pageId": "Home",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }

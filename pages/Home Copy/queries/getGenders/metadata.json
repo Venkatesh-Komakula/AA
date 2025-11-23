@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "69228120d8824914c3f6f76d_f9c16acc-2219-4f22-94db-ab2771b3b8c4",
-  "id": "Page1_Create_User",
+  "gitSyncId": "6922a2cfc33c1c45329388f4_694aa211-8d05-4cbe-aae4-6c79313748df",
+  "id": "Home Copy_getGenders",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO public.\"users\" (\"gender\", \"email\",\"name\")\n  VALUES ({{CreateUserForm.formData.gender}}, {{CreateUserForm.formData.email}},\n\t\t\t\t {{CreateUserForm.formData.name}});",
+      "body": "SELECT DISTINCT gender FROM public.\"users\";",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,13 +22,9 @@
       "name": "Untitled datasource 2",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
-    "name": "Create_User",
-    "pageId": "Page1",
+    "dynamicBindingPathList": [],
+    "name": "getGenders",
+    "pageId": "Home Copy",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

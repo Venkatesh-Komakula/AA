@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "69228120d8824914c3f6f76d_8bc728ee-4c8d-425c-9f61-77cf8bdd3ed3",
-  "id": "Page1_Delete_User",
+  "gitSyncId": "69228120d8824914c3f6f76d_f9c16acc-2219-4f22-94db-ab2771b3b8c4",
+  "id": "Home_Create_User",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "DELETE FROM public.\"users\"\nWHERE id = {{Table1.selectedRow.id}};",
+      "body": "INSERT INTO public.\"users\" (\"gender\", \"email\",\"name\")\n  VALUES ({{CreateUserForm.formData.gender}}, {{CreateUserForm.formData.email}},\n\t\t\t\t {{CreateUserForm.formData.name}});",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,8 +27,8 @@
         "key": "body"
       }
     ],
-    "name": "Delete_User",
-    "pageId": "Page1",
+    "name": "Create_User",
+    "pageId": "Home",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
